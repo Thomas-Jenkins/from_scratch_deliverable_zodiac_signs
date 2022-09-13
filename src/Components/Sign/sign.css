@@ -1,0 +1,8 @@
+.sign-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    padding: 5px;
+    margin: 5px;  
+};
