@@ -10,6 +10,6 @@ export default function Main() {
     {signs.map((sign) => (
       <Sign key={sign.name} {...sign} />
     ))}
-  </main>
+  </main> 
   );
 }
