@@ -1,5 +1,5 @@
-import './Main.css';
 import React from 'react';
+import './Main.css';
 import background from '../../assets/astrology_background.jpg';
 import Sign from '../Sign/Sign';
 import { signs } from '../../data.js';
