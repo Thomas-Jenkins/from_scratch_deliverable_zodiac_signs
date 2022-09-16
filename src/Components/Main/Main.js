@@ -2,7 +2,7 @@ import React from 'react';
 import background from '../../assets/astrology_background.jpg';
 import Sign from '../Sign/Sign';
 import { signs } from '../../data.js';
-
+// moved back after deploy failure
 import './Main.css';
 
 export default function Main() {
