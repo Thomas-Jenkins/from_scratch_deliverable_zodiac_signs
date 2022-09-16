@@ -6,7 +6,7 @@ import { signs } from '../../data.js';
 import './Main.css';
 
 export default function Main() {
-  return (<main className="temp" style={{ backgroundImage: `url(${background})` }}>
+  return (<main className="temporary" style={{ backgroundImage: `url(${background})` }}>
     {signs.map((sign) => (
       <Sign key={sign.name} {...sign} />
     ))}
